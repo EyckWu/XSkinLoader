@@ -12,6 +12,7 @@ import com.wind.me.xskinloader_sample.CustomTitleView;
  * Created by Windy on 2018/1/10.
  * test
  * test2
+ * test3
  */
 
 public class CustomViewTextColorResDeployer implements ISkinResDeployer {
