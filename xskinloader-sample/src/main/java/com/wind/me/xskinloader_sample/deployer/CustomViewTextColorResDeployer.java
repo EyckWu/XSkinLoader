@@ -19,6 +19,9 @@ public class CustomViewTextColorResDeployer implements ISkinResDeployer {
         if (!(view instanceof CustomTitleView)) {
             return;
         }
+        //
+        //
+        //
         CustomTitleView titleView = (CustomTitleView) view;
         if (SkinConfig.RES_TYPE_NAME_COLOR.equals(skinAttr.attrValueTypeName)) {
             titleView.setTextColor(resource.getColor(skinAttr.attrValueRefId));
